@@ -1,0 +1,89 @@
+
+.link__active {
+  color: #fff;
+  background-color: #000;
+}
+
+
+
+.link:visited {
+  text-decoration: none;
+  padding: 0.8rem 1.2rem;
+  text-transform: capitalize;
+  color: #163f45;
+  border-radius: 0.7rem;
+  font-size: 2.3rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.link:hover {
+  background-color: #693768;
+  color: rgba(210, 221, 222, 0.906);
+}
+
+.home {
+  background-color: #693768;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  width: 1000px;
+  margin-left: 230px
+} 
+.card{
+  background-color: #fff;
+  text-align: center;
+  border-radius: 3%;
+  padding: 24px 20px;
+  color: #000;
+  margin: 30px 0;
+  display :block;
+  float: left
+}
+.card img{
+  border-radius: 100%;
+  border: 2px solid rgb(31, 6, 121);
+  
+}
+
+.error {
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+  margin-top: 5rem;
+}
+
+
+.buttons {
+      margin: 50px;
+}
+button {
+ background: #fff;
+    border: 2px solid #666;
+    padding: 10px 15px;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    position: relative;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.pages.active{
+      border: 1px solid #888;
+    color: #888;
+    pointer-events: none;
+}
+.disabled {
+  background-color: #95bbab;
+      color: #999;
+  cursor: not-allowed;
+}
+
+button:hover {
+  color: #5b3fa6;
+  background-color: #963c3c;
+}
+
+p {
+  font-size: 2rem;
+}

@@ -1,0 +1,64 @@
+body{
+  background: #ffb3ff;
+}
+.header{
+  width: 1000px;
+  height: 80px;
+  margin: 10px;
+  
+  display: flex;
+}
+.why{
+  width: 20%;
+  height: 70px;
+  margin: 10px;
+  display: flex;
+  float: left;
+  font-size: 50px;
+}
+.listers{
+  width: 700px;
+  height: 80px;
+  display: flex;
+  float: right;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.link{
+  width: 150px;
+  height:50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+font-size: 30px;
+}
+
+.home{
+  display: block;
+  width: 1000px;
+  height: 400px;
+  float: left;
+  text-align: center;
+  margin:50px 190px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  text-align: center;
+  float:left;
+  justify-content: center;
+  align-item: center;
+}
+
+.pard{
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  margin-top: 20px,
+}
